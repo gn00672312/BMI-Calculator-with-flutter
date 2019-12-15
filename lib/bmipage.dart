@@ -123,7 +123,7 @@ class _BmiPageState extends State<BmiPage> {
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: <Widget>[
                 
-                        Text('HEIGHT',style: headlines),
+                        Text('HEIGHT(CM)',style: headlines),
                         Padding(
                           padding: const EdgeInsets.all(8.0),
                           child: Text("$height", style: boldNumber),
@@ -165,7 +165,7 @@ class _BmiPageState extends State<BmiPage> {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: <Widget>[
                     
-                        Text('WEIGHT',style: headlines),
+                        Text('WEIGHT(KG)',style: headlines),
                         Padding(
                           padding: const EdgeInsets.all(8.0),
                           child: Text("$weight", style: boldNumber),
@@ -225,7 +225,7 @@ class _BmiPageState extends State<BmiPage> {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: <Widget>[
                     
-                        Text('AGE',style: headlines),
+                        Text('AGE(YR)',style: headlines),
                         Padding(
                           padding: const EdgeInsets.all(8.0),
                           child: Text("$age",style: boldNumber),

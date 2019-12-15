@@ -110,7 +110,6 @@ bmiResult(h,w){
   double bmi = (w/(h*h))*10000;
 
   if(bmi<18.5){
-    
     comment = "You are under Weight";
     headline = "UNDERWEIGHT";
   }else if(bmi >= 18.5 && bmi <25){
