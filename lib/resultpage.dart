@@ -135,5 +135,5 @@ bmiResult(h, w, g) {
 }
 
 genderText(gender) {
-  return gender == 'M' ? 'Male' : 'Female';
+  return gender == 0 ? 'Female' : 'Male';
 }
