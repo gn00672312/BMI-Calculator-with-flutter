@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hello_world/hextoint.dart';
+import 'package:bmi_calculator/hextoint.dart';
 
 Color primary = Color.fromRGBO(28, 40, 51, 0.8);
 Color secondary = Colors.black;

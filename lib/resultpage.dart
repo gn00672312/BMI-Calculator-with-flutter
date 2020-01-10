@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hello_world/theame.dart';
+import 'package:bmi_calculator/theame.dart';
 
 class ResultPage extends StatelessWidget {
   final int height;
@@ -66,7 +66,7 @@ class _ResultState extends State<Result> {
                     Padding(
                       padding: const EdgeInsets.all(8.0),
                       child: Text(
-                        (this.widget.gender == 0 ? "20 - 25" : "18 - 23") +
+                        (this.widget.gender == 0 ? "18 - 23" : "20 - 25") +
                             " kg/m",
                         style: headlines,
                       ),

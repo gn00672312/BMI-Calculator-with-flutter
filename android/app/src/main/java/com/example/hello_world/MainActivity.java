@@ -1,4 +1,4 @@
-package com.example.hello_world;
+package com.example.bmi_calculator;
 
 import android.os.Bundle;
 import io.flutter.app.FlutterActivity;
